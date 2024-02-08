@@ -1,9 +1,26 @@
 # API BARCODE
+![Cover](./.github/api-barcode-flask.png)
 
-### Desenvolvimento
-Api desenvolvida no NLW Expert (Python)
+## Requisites
+- Python
+-> Flask
 
-### Tecnoligia usada
-Python 3.9.18 <br/>
-Flask 3.0.2 <br />
+## Setup
 
+- Clone the repository
+- Install dependencies
+```console
+  python -m venv venv
+
+  # for linux or mac
+  source venv/bin/activate 
+
+  # for windows
+  .\venv\scripts\activate
+
+  pip install -r requirements.txt
+  ```
+  - Run application
+```console
+    python run.py
+```
